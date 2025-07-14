@@ -18,7 +18,7 @@ def prediction():
     # make prediction
     pred = model.predict([[q]])
 
-    return(render_template("prediction.html",r=pred)
+    return(render_template("prediction.html",r=pred))
 
 #@app.route("/prediction",methods=["GET","POST"])
 #def prediction():
