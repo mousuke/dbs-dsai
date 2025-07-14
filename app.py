@@ -2,7 +2,8 @@ from flask import Flask,render_template,request
 import joblib
 from groq import Groq
 import os
-os.environ['GROQ_API_KEY'] = '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'
+os.environ['GROQ_API_KEY'] = userdata.get('GROQ_API_KEY')
+
 # for cloud...
 
 app = Flask(__name__)
