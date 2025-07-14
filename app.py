@@ -1,6 +1,6 @@
 #app.py
 from flask import Flask,render_template,request
-import jobilb
+import joblib
 
 app = Flask(__name__)
 
